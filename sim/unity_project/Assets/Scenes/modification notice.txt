@@ -1,0 +1,1 @@
+AffordanceScene.unity modifies the TutorialPoseEstimation.unity file distributed by the Unity Robotics Hub.

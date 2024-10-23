@@ -1,0 +1,20 @@
+planning_time_limit: 3.0
+max_iterations: 50
+max_iterations_after_collision_free: 100
+smoothness_cost_weight: 0.1
+obstacle_cost_weight: 1.0
+learning_rate: 0.0005 # 0.001 or less to avoid motion seams
+smoothness_cost_velocity: 0.1
+smoothness_cost_acceleration: 0.1
+smoothness_cost_jerk: 0.1
+ridge_factor: 0.01
+use_pseudo_inverse: false
+pseudo_inverse_ridge_factor: 1e-4
+joint_update_limit: 0.1
+collision_clearance: 0.00002 # updating to collision_clearance ('a' instead of 'e') causes jerky motion?
+collision_threshold: 0.000007
+use_stochastic_descent: true
+enable_failure_recovery: false
+max_recovery_attempts: 5
+max_sampling_attempts: 1000
+trajectory_initialization_method: fillTrajectory

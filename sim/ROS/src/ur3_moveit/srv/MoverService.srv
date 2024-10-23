@@ -1,0 +1,6 @@
+# This file modifies the MoverService.srv file distributed by the Unity Robotics Hub.
+
+UR3MoveitJoints joints_input
+geometry_msgs/Pose[] poses
+---
+moveit_msgs/RobotTrajectory[] trajectories
